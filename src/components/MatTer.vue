@@ -14,7 +14,7 @@
           </div>
         </transition>
         <div class="stand" v-show="stand">
-          <h4 style="font-size=50%">了解</h4>
+          <h4 style="font-size=50%">了解qq</h4>
         </div>
       </div>
     </div>
