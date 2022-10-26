@@ -85,6 +85,11 @@
   "resolved" "https://registry.npmmirror.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz"
   "version" "1.0.2"
 
+"animate.css@^4.1.1":
+  "integrity" "sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ=="
+  "resolved" "https://registry.npmjs.org/animate.css/-/animate.css-4.1.1.tgz"
+  "version" "4.1.1"
+
 "ansi-html@0.0.7":
   "integrity" "sha512-JoAxEa1DfP9m2xfB/y2r/aKcwXNlltr4+0QSBC4TrLfcxyvepX2Pv0t/xpgGV5bGsDzCYV8SzjWgyCW0T9yYbA=="
   "resolved" "https://registry.npmmirror.com/ansi-html/-/ansi-html-0.0.7.tgz"
