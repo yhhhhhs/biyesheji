@@ -13,7 +13,7 @@
             <h2 style="margin-left:18%;text-align:left">{{item.msg}}</h2>
           </div>
         </transition>
-        <div class="stand" v-show="stand">
+        <div class="stand" v-show="stand" @click="skip">
           <h4 style="font-size=50%">了解qq</h4>
         </div>
       </div>
@@ -149,6 +149,9 @@ export default {
           this.calleft = -33.333333333333333 * 3;
         }
       }
+    },
+    skip() {
+      this.$router.push({ path: "/introDuce" });
     }
   }
 };

@@ -9,7 +9,7 @@
       text-color="#fff"
       active-text-color="#d351e1"
     >
-      <el-menu-item>
+      <el-menu-item @click="skipHome">
         <img :src="imgurl" alt class="logo" />
       </el-menu-item>
       <el-menu-item index="1">处理中心</el-menu-item>
@@ -51,6 +51,9 @@ export default {
   methods: {
     handleSelect(key, keyPath) {
       console.log(key, keyPath);
+    },
+    skipHome() {
+      this.$router.push({ path: "/" });
     }
   }
 };
@@ -65,6 +68,9 @@ export default {
   color: rgb(255, 255, 255) !important;
   position: absolute;
   right: 0;
+}
+/deep/.el-menu.el-menu--horizontal {
+  border-bottom: none !important;
 }
 .header {
   position: fixed;
