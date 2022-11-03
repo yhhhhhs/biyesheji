@@ -7,8 +7,8 @@
 </template>
   
   <script>
-import HeaDer from "../components/HeaDer.vue";
-import inTro from "../components/inTro.vue";
+import HeaDer from "../commoncpt/HeaDer.vue";
+import inTro from "../inTro/daughter/inTro.vue";
 export default {
   name: "introduce",
   data() {

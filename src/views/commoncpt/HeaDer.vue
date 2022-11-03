@@ -43,7 +43,7 @@ export default {
   name: "HeaDer",
   data() {
     return {
-      imgurl: require("../assets/images/logo.png"),
+      imgurl: require("../../assets/images/logo.png"),
       activeIndex: "1",
       activeIndex2: "1"
     };

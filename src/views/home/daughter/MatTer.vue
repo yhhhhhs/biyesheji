@@ -39,27 +39,27 @@ export default {
       calleft: 0,
       imgsrc: [
         {
-          url: require("../assets/images/1.png"),
+          url: require("../../../assets/images/1.png"),
           msg: "BATTLE BREAKERS"
         },
         {
-          url: require("../assets/images/2.jpg"),
+          url: require("../../../assets/images/2.jpg"),
           msg: "BATTLE BREAKERS"
         },
         {
-          url: require("../assets/images/3.jpg"),
+          url: require("../../../assets/images/3.jpg"),
           msg: "BATTLE BREAKERS"
         },
         {
-          url: require("../assets/images/4.jpg"),
+          url: require("../../../assets/images/4.jpg"),
           msg: "BATTLE BREAKERS"
         },
         {
-          url: require("../assets/images/5.png"),
+          url: require("../../../assets/images/5.png"),
           msg: "BATTLE BREAKERS"
         },
         {
-          url: require("../assets/images/6.jpg"),
+          url: require("../../../assets/images/6.jpg"),
           msg: "BATTLE BREAKERS"
         }
       ]
